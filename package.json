@@ -1,5 +1,17 @@
 {
   "name": "hardhat-project",
+  "scripts": {
+    "ethereumr": "npx hardhat --network ethereum run",
+    "ethereumv": "npx hardhat --network ethereum verify",
+    "rinkebyr": "npx hardhat --network rinkeby run",
+    "rinkebyv": "npx hardhat --network rinkeby verify",
+    "polygonr": "npx hardhat --network polygon run",
+    "polygonv": "npx hardhat --network polygon verify",
+    "mumbair": "npx hardhat --network mumbai run",
+    "mumbaiv": "npx hardhat --network mumbai verify",
+    "bscr": "npx hardhat --network bsc run",
+    "bscv": "npx hardhat --network bsc verify",
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
     "hardhat": "^2.10.1",
